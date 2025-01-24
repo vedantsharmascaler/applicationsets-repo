@@ -12,7 +12,6 @@ spec:
           - path: dev
           - path: staging
           - path: production
-          - path: test
   template:
     metadata:
       name: '{{path.basename}}-guestbook'
