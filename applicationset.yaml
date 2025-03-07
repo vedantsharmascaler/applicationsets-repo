@@ -6,13 +6,12 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/deepaks374/applicationsets-repo
+        repoURL: https://github.com/vedantsharmascaler/applicationsets-repo
         revision: HEAD
         directories:
           - path: dev
           - path: staging
           - path: production
-          - path: test
   template:
     metadata:
       name: '{{path.basename}}-guestbook'
